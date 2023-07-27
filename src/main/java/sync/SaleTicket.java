@@ -1,6 +1,6 @@
 package sync;
 
-////第一步 创建一个资源类，定义属性和方法
+//第一步 创建一个资源类，定义属性和方法
 //class Ticket {
 //    //票数
 //    private int num = 30;
@@ -104,5 +104,7 @@ public class SaleTicket {
                 }
             }
         }, "cc").start();
+
+        System.out.println("hello");
     }
 }
